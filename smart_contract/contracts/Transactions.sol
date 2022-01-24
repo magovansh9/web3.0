@@ -21,24 +21,19 @@ string keyword;
 // An array of transactions
 TransferStruct[] transactions;
 
-function addToBlockchain(address payable receiver, uint amount, string memory message, string memory keyword) public {
+    function addToBlockchain(address payable receiver, uint amount, string memory message, string memory keyword) public {
+        transactionCount++;
+        transactions.push(TransferStruct(msg.sender, receiver, amount, message, block.timestamp, keyword));
 
-// Increment Transfer count
-transactionCount ++;
+        emit Transfer(msg.sender, receiver, amount, message, block.timestamp, keyword);
+    }
 
-// Add Transfer to Transfer Array
-transactions.push(TransferStruct(msg.sender,receiver, amount, message, block.timestamp, keyword));
-
-// Emit the Transfer, indicating info such as :- amount sent and timestamp
-emit Transfer(msg.sender, receiver, amount, message, block.timestamp, keyword);
+function getAllTransactions() public view returns (TransferStruct[] memory) {
+  return transactions;
 }
 
-function getAllTransactions() public  view returns(TransferStruct[] memory){
-//return transactions;
-}
-
-function getTransactionCount() public view returns(uint256) {
-//return transactions;
+function getTransactionCount() public view returns (uint256) {
+return transactionCount;
 }
 
 }
