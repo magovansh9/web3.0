@@ -34,3 +34,8 @@ The client-side implementation is done using React and is stored inside the clie
 - One can create simultaneously for both web and mobile platforms
 
 ### Blockchain
+
+- Write a Smart Contract in solidity
+- Wrap the app in the solidity file, allowing it to access all the functions
+- Write jsx functions to access MetaMask and do things like:- connect Wallet, check if Wallet is connected, transfer ETH, get all Accounts
+- Call solidity functions to add the transaction to the blockchain, increase transaction counts, updated transaction
