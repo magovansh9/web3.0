@@ -24,18 +24,19 @@ The client-side implementation is done using React and is stored inside the clie
 
 - Alchemy helps us deploy our blockchain smart contract, it is a blockchain development tool
 
-- The Blockchain interacts with the frontend using the above tools
+Summary: Set up the ethereum blockchain using solidity (using Hardhat) -> connect it to the frontend -> interact with the blockchain using MetaMask
 
 ## Lessons
 
 ### Client-Side
 
-- One can create multiple sub-components within the same file to use for the main component
-- One can create simultaneously for both web and mobile platforms
+- Create multiple sub-components within the same file to use for the main component
+- Develop simultaneously for both web and mobile platforms
+- Conditional Rendering
 
 ### Blockchain
 
-- Write a Smart Contract in solidity
-- Wrap the app in the solidity file, allowing it to access all the functions
-- Write jsx functions to access MetaMask and do things like:- connect Wallet, check if Wallet is connected, transfer ETH, get all Accounts
-- Call solidity functions to add the transaction to the blockchain, increase transaction counts, updated transaction
+- Write a Smart Contract in Solidity
+- Wrap the app in the solidity Context Provider, allowing it to access all the blockchain functions
+- Write jsx functions to access MetaMask and do things like:- connect Wallet, transfer ETH, get all Accounts
+- Call solidity functions to interact with the blockchain, increase transaction counts, update transaction
