@@ -24,4 +24,6 @@ The repository is split between frontend and Web 3.0 components. The frontend ar
 
 - Alchemy helps us deploy our blockchain smart contract, it is a blockchain development tool.
 
-NOTE: Install Metamask to get your Ethereum Wallet setup and interact with the app!
+NOTE: You need to install Metamask to get your Ethereum Wallet setup and interact with the app.
+
+Try it out [here](https://krypt-eth-transfer.netlify.app)!
