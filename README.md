@@ -4,7 +4,9 @@ Krypt is a Web 3.0 app allowing the user to transfer cryptocurrency over the Eth
 
 ## Tech Stack
 
-The repository is split between frontend and Web 3.0 components. The frontend architecture is implemented using React and Tailwind CSS whereas the smart contract employs several technologies as mentioned below.
+The repository is split between frontend and Web 3.0 components
+
+The frontend architecture is implemented using React and Tailwind CSS whereas the smart contract employs several technologies as mentioned below
 
 ### React
 
@@ -12,7 +14,7 @@ The repository is split between frontend and Web 3.0 components. The frontend ar
 
 ### Tailwind CSS
 
-- A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup without writing any actual css code.
+- A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup without writing any actual css code
 
 ### Blockchain
 
