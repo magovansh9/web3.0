@@ -8,11 +8,11 @@ The repository is split between frontend and Web 3.0 components. The frontend ar
 
 ### React
 
-- Instead of using npx create-react-app, ViteJS has been used to initialize the project. Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
+Instead of using npx create-react-app, ViteJS has been used to initialize the project. Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
 ### Tailwind CSS
 
-- A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup without writing any actual css code.
+A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup without writing any actual css code.
 
 ### Blockchain
 
